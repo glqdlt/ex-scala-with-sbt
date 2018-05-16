@@ -18,7 +18,27 @@ object Ex_1_1 {
 
   def main(args: Array[String]): Unit = {
 
-    println("Hello, Scala")
+    val pig :Pig = new Pig
+
+    pig.eat
+    pig.shout
+    pig.fly
+
+
+
+  }
+
+//  믹스인
+  class Pig extends Animal with Flying with Eating{
+    override def shout: Unit = println("Shout")
+
+    override def eat: Unit = println("Eat Eat")
+
+  }
+
+  abstract class Animal {
+
+    def shout
   }
 
 }
