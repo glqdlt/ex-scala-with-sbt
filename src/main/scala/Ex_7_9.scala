@@ -22,8 +22,8 @@ object Ex_7_9 {
     println(four)
 
     println(one.get)
-    println(three.getOrElse("값이 없드아ㅏ"))
-    println(four.getOrElse("값이 없네"))
+    println(three.getOrElse("three 값이 없습니다."))
+    println(four.getOrElse("four, 값이 없습니다"))
 
 
 //    스칼라에는 시퀀스가 있다. 링크드리스트가 스칼라의 기본 리스트(index가 없는)이고, 시퀀스는 arraylist와 같다.(index가 있음))

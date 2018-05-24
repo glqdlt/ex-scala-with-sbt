@@ -13,6 +13,9 @@ object Ex_7_10 {
     while(i.hasNext)
       println(i.next)
 
+
+
+
 //    p143
   }
 
